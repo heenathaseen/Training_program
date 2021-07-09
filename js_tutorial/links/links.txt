@@ -1,0 +1,6 @@
+let var
+https://teams.microsoft.com/l/message/19:CF6U7mh1Bdl-y6qUIYLMVoMpRrmAL7YrgOH7qHHkc0I1@thread.tacv2/1624950398745?tenantId=6a5d9977-ef95-4a39-b842-b8443c09dfbf&groupId=0db291df-04f6-4c9c-80a0-ee182c7e8e42&parentMessageId=1624950398745&teamName=Training&channelName=General&createdTime=1624950398745
+closures
+https://teams.microsoft.com/l/message/19:CF6U7mh1Bdl-y6qUIYLMVoMpRrmAL7YrgOH7qHHkc0I1@thread.tacv2/1624950394655?tenantId=6a5d9977-ef95-4a39-b842-b8443c09dfbf&groupId=0db291df-04f6-4c9c-80a0-ee182c7e8e42&parentMessageId=1624950394655&teamName=Training&channelName=General&createdTime=1624950394655
+strings
+https://teams.microsoft.com/l/message/19:CF6U7mh1Bdl-y6qUIYLMVoMpRrmAL7YrgOH7qHHkc0I1@thread.tacv2/1624950261416?tenantId=6a5d9977-ef95-4a39-b842-b8443c09dfbf&groupId=0db291df-04f6-4c9c-80a0-ee182c7e8e42&parentMessageId=1624950261416&teamName=Training&channelName=General&createdTime=1624950261416
