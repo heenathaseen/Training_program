@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>form</title>
+</head>
+
+<body>
+    <form action="actionpage.html">
+        <div>
+            <label for="nameId">Name</label>
+            <input type="text" name="name" id="nameId" required>
+        </div>
+        <br>
+        <div>
+            <label for="emailId">Email</label>
+            <input type="email" name="email" id="emailId" required>
+        </div>
+        <br>
+        <div>
+            <label for="passwordId">password</label>
+            <input type="password" name="password" id="passwordId" required>
+        </div>
+        <br>
+        <div>
+            <label for="dobId">Date of Birth</label>
+            <input type="date" name="date" id="dobId" required>
+        </div>
+        <br>
+        <div>
+            <label for="ageId">Age</label>
+            <input min=15 max=50 type="number" name="age" id="ageId" required>
+        </div>
+        <br>
+        <div>
+            <p>Gender</p>
+            <label for="maleId">Male</label>
+            <input type="radio" name="male" id="maleId" required>
+            <label for="femaleId">Female</label>
+            <input type="radio" name="female" id="femaleId" required>
+            <label for="othersId">others</label>
+            <input type="radio" name="others" id="othersd" required>
+        </div>
+        <br>
+        <div>
+            <p>languages known</p>
+            <label for="EnglishId">English</label>
+            <input type="checkbox" name="English" id="EnglishId" required>
+            <label for="TamilId">Tamil</label>
+
+            <input type="checkbox" name="Tamil" id="TamilId" required>
+            <label for="TeluguId">Telugu</label>
+
+            <input type="checkbox" name="Telugu" id="TeluguId" required>
+        </div>
+        <br>
+        <div>
+            <label for="eyecolorid">EyeColor</label>
+            <select name="eyecolor" id="eyecolorid" multiple>
+                <option value="black">Black</option>
+                <option value="brown">Brown</option>
+                <option value="blue">Blue</option>
+
+            </select>
+        </div>
+        <br>
+
+
+        <div>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+
+
+</body>
+
+</html>
