@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <!--post  browser cannot render when post as it needs a server-->
+        <!--http://127.0.0.1:5500/images/form.html?name=fgfd&email=sagf%40safh.com&password=gfdgfg&age=3-->
+        <form  method="get" class="formExample" action="./form2.html">
+            <div class="formExample">
+              <label for="name">Enter your name: </label>
+              <input type="text" name="name" id="name" required>
+              <!-- value="Name"   placeholder="Name"-->
+            </div>
+            <div class="formExample">
+              <label for="email">Enter your email: </label>
+              <input type="email" name="email" id="email" required>
+            </div>
+            <div class="formExample">
+                <label for="password">Enter your password: </label>
+                <input type="password" name="password" id="password" required>
+            </div>
+            <div class="formExample">
+              <label for="date">Enter your Birtdate: </label>
+              <input type="date" name="date" id="date" required>
+            </div>
+            <div class="formExample">
+                <label for="id">Enter your age: </label>
+                <input type="number" name="age" id="age" min=50 max=100>
+              </div>              
+            <div>
+              Favorite Food
+              <div>
+                <label for="banana">Banana</label>
+                <input type="checkbox" name="banana" id="banana">
+              </div>
+              <div>
+                <label for="apple">Apple</label>
+                <input type="checkbox" name="apple" id="apple">
+              </div>
+            </div>
+            <div>
+              Gender
+              <div>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" value="male">
+              </div>
+              <div>
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female" value="female">
+              </div>
+            </div>
+            <div>
+              <label for="eyeColor">Eye Color</label>
+              <select name="eyeColor" id="eyeColor" multiple>
+                <option value="Green">Green</option>
+                <option label="Red" value="Red"></option>
+              </select>
+            </div>
+            <div>
+              <label for="bio">Bio</label>
+              <textarea id="bio" name="bio"></textarea>
+            </div>
+            <input type="hidden" name="hidden" value="hi">
+            <div>
+              <label for="file">File</label>
+              <input id="file" type="file" name="file">
+            </div>
+            <div>
+              <label for="phone">Phone</label>
+              <input type="tel" name="phone" id="phone">
+            </div>
+            <div>
+              <label for="url">URL</label>
+              <input type="url" name="url" id="url">
+            </div>
+            <div>
+              <label for="color">Color</label>
+              <input type="color" name="color" id="color">
+            </div>
+            <div>
+              <label>
+                Password
+                <input type="password" name="password" required>
+              </label>
+            </div>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+          </form>
+                
+               
+                
+                
+                
+                
+                
+                
+                
+          </form>
+    </body>
+</html>
