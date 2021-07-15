@@ -1,0 +1,15 @@
+div{
+    width: 240px;  
+    float:left;  
+    background-color: blue;
+    border-radius: 8%; 
+} 
+
+.boxmodel{  
+    margin: 10;  
+    padding: 10px;   
+    border-radius: 8%;  
+    margin-right: 60px; 
+    background-color: slategray;  
+    border: 5px solid red; 
+}

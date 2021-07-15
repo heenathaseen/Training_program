@@ -1,0 +1,33 @@
+
+    body {
+  background-image: url("https://images.unsplash.com/photo-1541450805268-4822a3a774ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80");
+}
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+ 
+  width: 100%;
+}
+
+th, td {
+    width: 500px;
+    
+  padding: 15px;
+}
+th {
+  background-color: #04AA6D;
+  color: white;
+}
+tr {
+    
+  background-color: #FF5733;
+  color: white;
+}
+td{ 
+    
+    padding-left: 90px;
+    height: 100px;
+}

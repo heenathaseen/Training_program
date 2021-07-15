@@ -4,3 +4,41 @@ https://www.freecodecamp.org/news/css-unit-guide/
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference
 
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee
+
+Free Design Resources
+
+https://www.wix.com/blog/creative/2018/11/best-color-palette-generator-tools-online/ 
+
+https://www.heropatterns.com/ 
+
+https://heroicons.com/ 
+
+https://unsplash.com/ 
+
+https://fonts.google.com/ 
+
+
+
+Some Usability guidelines
+
+https://www.usability.gov/what-and-why/user-interface-design.html
+
+
+
+CSS Units
+
+https://www.freecodecamp.org/news/css-unit-guide/ 
+
+
+
+About file paths
+
+https://www.w3schools.com/html/html_filepaths.asp
+
+https://emmet.io/
+
+https://forms.gle/QjJuPRBBxoXHxDEG6
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/position
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/

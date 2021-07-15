@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details</title>
+    <link rel="styleSheet" href="./style.css">
+</head>
+
+<body>
+    <section class="studentform">
+        <h1 style="text-align: center;">Student College Application</h1>
+        <h2>Enter Student Details</h2>
+        <form action="myNextPage.html">
+            <div>
+                <label for="name_Id">Enter Your Name :</label>
+                <br>
+                <input required type="text" name='name' id="nameId">
+            </div>
+            <br>
+            <div>
+                <label for="g_Name">Enter Your Gaurdian Name :</label>
+                <br>
+                <input type="text " name="Gaurdian Name " id="g_Name">
+            </div>
+            <br>
+            <div>
+                <label for="dob">Enter Your DOB</label>
+                <br>
+                <input type="date" name="DOB" id="dob">
+            </div>
+            <div>
+                <label for="address">Address :</label>
+                <br>
+                <textarea name="" id="address" cols="30" rows="5"></textarea>
+            </div>
+            <div>
+                <p>Choose Subjects :</p>
+                <div>
+                    <input type="checkbox" name="checkBox" id="checkBox">
+                    <label for="checkBox">Computer Science</label>
+                   
+                </div>
+                <div> <input type="checkbox" name="checkBox" id="checkBox">
+                    <label for="checkBox">Mechanical Eng</label>
+                   
+                </div>
+                <div>
+                    <input type="checkbox" name="checkBox" id="checkBox">
+                    <label for="checkBox">Electrical Eng</label>
+                   
+                </div>
+                <div>
+                    <input type="checkbox" name="checkBox" id="checkBox">
+                    <label for="checkBox">Civil Eng</label>
+                    
+                </div>
+            </div>
+            <br>
+            <p1>Select Gender :</p1>
+            <div><input type="radio" name="radio" id="radio">
+                <label for="radio">Male</label>
+                
+            </div>
+            <div>
+                <input type="radio" name="radio" id="radio">
+                <label for="radio">Female</label>
+             
+            </div>
+            <br>
+            <div>
+                <label for="picture">Upload Your Picture:</label>
+                <input type="file" id="myFile" name="filename">
+               
+            </div>
+            <br>
+            <div>
+                <label for="bio">Add Your Bio :</label>
+                <br>
+                <textarea name="" id="bio" cols="30" rows="5"></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="Submit" value="submit">
+                <input type="reset" value="reset">
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>
