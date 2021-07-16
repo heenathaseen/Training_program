@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes View</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="mini.css">
+    <script src="mini.js"></script>
+
+</head>
+
+<body>
+    <div class="card-view">
+        <div id="quoteDisplay">
+            Dont fear failure so much that you refuse to try new things.The saddest
+            summary of life contains three descriptions: could have, might have, and should have.
+            <br> ~unknown
+        </div>
+        <p id="author"></p>
+
+        <button class="btn" onclick="getWordsFetch();">New Quote</button>
+
+    </div>
+    <div class="card-view">
+        <h2>Multiple Quotes</h2>
+        <label>Enter Input between 1-5</label>
+
+        <input min=1 max=5 type="number" name="txt" id="inputText" class="in">
+        <div>
+            <button class="btn" onclick="displayNew()" type="submit">Display many quotes</button>
+            <!-- <button class="btn" type="reset">Reset</button> -->
+        </div>
+        <div id="displayNewQuotes">
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

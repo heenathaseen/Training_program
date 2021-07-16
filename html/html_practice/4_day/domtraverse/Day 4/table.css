@@ -1,0 +1,26 @@
+.btn {
+    color: green;
+    border: solid brown 10px;
+    border-radius: 10%;
+    background-color: wheat;
+}
+
+.tbl {
+    color: red;
+    border: solid red 20px;
+    background-color: palegreen;
+}
+
+.heading {
+    color: blue;
+    border: none;
+    background-color: skyblue
+}
+
+table,
+th,
+td {
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}

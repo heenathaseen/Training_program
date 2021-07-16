@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="quote.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Pacifico&display=swap"
+            rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+            rel="stylesheet">
+    </head>
+    <body onload="newQuote()">
+        <div id="container" class="container">
+
+            <p id="txt" class="txt"> </p>
+            <button id="btn" class="btn" onclick="newQuote()">New Quote</button>
+        </div>
+        <div class="txtcontainer">
+            <label for="cnt" class="lbl">Enter the Number of Quotes to display :
+                <input type="text" id="cnt" class="cnt" placeholder="Only (1 -
+                    5)"></label>
+            <button class="btn" onclick="userDefinedQuotes()">Click</button>
+        </div>
+        <script src="quote.js"></script>
+    </body>
+</html>

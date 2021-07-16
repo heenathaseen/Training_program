@@ -1,0 +1,76 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    padding: 15%;
+    background-image: url("pawel-czerwinski-F56Y7dgrAkc-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border-radius: 10%;
+    height: 7%;
+    width: 20%;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 40%);
+    display: flex;
+    height: 70%;
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: 0 6px 9px rgba(0, 0, 0, .9);
+    position: relative;
+}
+
+.txt {
+    color: black;
+    height: 20vh;
+    width: 90%;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: medium;
+}
+.lbl{
+    font-family: 'Gloria Hallelujah', cursive;
+    color: black;
+    text-align: center;
+}
+.txtcontainer{
+    background-color: rgba(255, 255, 255, 40%);
+    display: flex;
+    height: 70%;
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: 0 6px 9px rgba(0, 0, 0, .9);
+    position: relative;
+    margin-top: 10%;
+}
+.cnt{
+    padding: 0;
+    height: 30px;
+    position: relative;
+    left: 0;
+    outline: none;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0,0,0,.15);
+    background-color: white;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+}
