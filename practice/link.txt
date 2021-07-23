@@ -1,0 +1,3 @@
+https://nodejs.dev/learn/working-with-file-descriptors-in-nodejs
+https://medium.com/@asirinaidu1990/file-system-operation-in-node-js-a62dbf2fa548
+https://nodesource.com/blog/understanding-streams-in-nodejs/
