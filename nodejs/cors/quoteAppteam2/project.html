@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="project.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    </head>
+    <body onload="newQuote()">
+        <h1>Quote Generator</h1>
+        <div id="container" class="container">
+
+            <p id="txt" class="txt"> </p>
+            <button id="btn" class="btn" onclick="newQuote()">New Quote</button>
+        </div>
+   
+        <div class="txtcontainer">
+            <label for="cnt" class="lbl">Enter the Number of Quotes to display :
+                <input type="text" id="cnt" class="cnt" placeholder="Only (1 -
+                    5)"></label>
+            <button class="btn" onclick="userDefinedQuotes()">Click</button>
+        </div>
+        <script src="project.js"></script>
+    </body>
+</html>
